@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="currency.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrap">
+        <h2>CURRENCY CONVERTER</h2>
+        <form action="#">
+        <div class="amt">
+            <p>Enter Amount</p>
+            <input type="text" value="1">
+        </div>
+        <div class="list">
+            <div class="from">
+            <p>FROM</p>
+            <div class="select-box">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                <select>
+                    <option value="USD">USD</option>
+                    <option value="NPR">NPR</option>
+                    <option value="INR">INR</option>
+                    <option value="PKR">PKR</option>
+                    <option value="MAD">MAD</option>
+                </select>
+            </div>
+            </div>
+            <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+            <div class="to">
+                <p>TO</p>
+                <div class="select-box">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                    <select>
+                        <option value="USD">USD</option>
+                        <option value="NPR">NPR</option>
+                        <option value="INR">INR</option>
+                        <option value="PKR">PKR</option>
+                        <option value="MAD">MAD</option>
+                    </select>
+                </div>
+                </div>
+        </div>
+        <div class="exchange"><p>1USD=118.16NPR</p></div><br>
+        <button>Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <script src="country-list.js"></script>
+    <script src="currency.js"></script>
+</body>
+</html>
