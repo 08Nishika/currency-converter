@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    background-image: url('currency.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap{
+    border: 1px solid goldenrod;
+    padding: 70px;
+    margin-top: 70px;
+    margin-left: 100px;
+    box-shadow: 5px 5px gold;
+   
+}
+h2{
+    color: gold;
+    margin-top: -20px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+.amt{
+    padding: 30px;
+}
+.amt p{
+    color: white;
+    font-size:25px;
+}
+.amt input{
+    padding:3px;
+    border: 1px solid lightblue;
+    background-color: transparent;
+    color:white;
+    font-size: 20px;
+    height: 30px;
+    width: 400px;
+    box-shadow: 10px 10px lightblue;
+}
+.list{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.select-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+   
+}
+.select-box select{
+    width: 50px;
+    height: 20px;
+    justify-content: space-between;
+    
+}
+.select-box img{
+   
+    width: 100px;
+}
+p{
+    color: white;
+    font-size: 20px;
+  
+}
+.fas{
+    color: white;
+    align-items: center;
+}
+.to p{
+    padding-left: 100px;
+}
+.exchange p{
+    padding: 20px;
+    color: white;
+   text-align: center;
+   box-shadow: 10px 10px lightblue;
+    border: 1px solid white;
+}
+button{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+   margin-left: 150px;
+   margin-top: 20px;
+    
+}
